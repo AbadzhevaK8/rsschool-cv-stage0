@@ -83,3 +83,25 @@ func main() {
 	}
 }
 ```
+
+*******
+### Education
+#### Higher education ####
+
+**Moscow State Industrial University, Moscow
+Faculty of Economics, Management and Information Technology, Economics and Enterprise Management (by industry)**
+
+**2014**
+
+----------------------------------------------------
+#### Advanced training courses ####
+
+
+**Software testing course
+IT Academy of Alexey Sukhorukov, Tester**
+
+**2020**
+
+*******
+### English
+B1 (Intermediate)
