@@ -7,7 +7,7 @@ __email__: make.me.loco@gmail.com
 
 __phone__: +7 953 153 28 29
 
-__Discord__: Kate (@AbadzhevaK8)
+__Discord__: AbadzhevaK8#4703 (@AbadzhevaK8) 
 
 [Github](https://github.com/AbadzhevaK8/)
 
