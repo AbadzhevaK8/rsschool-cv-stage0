@@ -109,3 +109,7 @@ IT Academy of Alexey Sukhorukov, Tester**
 *******
 ### English
 B1 (Intermediate)
+
+*******
+### Projects
+https://AbadzhevaK8.github.io/rsschool-cv/cv
