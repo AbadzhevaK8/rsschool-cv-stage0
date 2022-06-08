@@ -4,15 +4,172 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1.0">
   <title>cv</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="./assets/img/favicon-32x32.png">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/prism.css">
 </head>
 
 <body>
-  <span class="coloredBlock"></span>
-  <img src="./assets/img/abadzheva_ekaterina.jpg" alt="Avadzheva Ekaterina photo">
+  <!-- header section -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- main section (distinct & single) -->
+  <main class="main main-container">
+    <div class="container">
+      <section class="section">
+        <h1 class="section-title">Abadzheva Ekaterina</h1>
+        <p>Junior developer</p>
+
+        <!-- <img src="./assets/img/abadzheva_ekaterina.jpg" class="foto" alt="Avadzheva Ekaterina photo"> -->
+
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <p>email: <a href="mailto:make.me.loco@gmail.com">make.me.loco@gmail.com</a></p>
+
+        <p>phone: <a href="tel:+79531532829">+7 953 153 28 29</a></p>
+
+        <p>Discord: AbadzhevaK8#4703 (@AbadzhevaK8)</p>
+
+        <a href="https://github.com/AbadzhevaK8/">Github</a>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>I have been working as a project manager from 2014 to 2017. During this period I gained experience:</p>
+        <ul>
+          <li> Jira</li>
+          <li> designing online stores, corporate websites</li>
+          <li> writing technical documentation, specifications</li>
+          <li> manual testing of interfaces using our own specs (general experience of such work is 2 years).</li>
+        </ul>
+
+        <p>Then, for three years I have been working as a content manager (from April 2017 to December 2019). While I
+          was
+          working, I began to learn on my own:</p>
+
+        <ul>
+          <li>html/css/ChromeDevTools</li>
+          <li>git/github/gitkraken</li>
+          <li>python/PyPI/django/selenium</li>
+          <li>SQL</li>
+          <li>statistics (stepik course)</li>
+          <li>ubuntu/bash/command line interface</li>
+          <li>superficial: kotlin/java/js</li>
+          <li>PyCharm/IntelliJ IDEA Got it and quit. (December 30, 2019)</li>
+        </ul>
+
+        <p>An epidemic began, and I went to a testing course to systematize knowledge. On the course, I figured out what
+          normal testing is, how it is built, methods, tools, test design.</p>
+
+        <p>Acquired new skills and knowledge:</p>
+
+        <ul>
+          <li>basics of API testing (on Postman),</li>
+          <li>I wrote tests on Selenium in Java (before only on python Selenium),</li>
+          <li>worked in TestRail and YouTrack. Systematized and supplemented the early testing experience.</li>
+        </ul>
+        <p>Now I'm learning to create golang apps and frontend development.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML / CSS / JS</li>
+          <li>python</li>
+          <li>golang</li>
+          <li>Selenium</li>
+          <li>SQL</li>
+          <li>git</li>
+          <li>jira</li>
+          <li>kotlin</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code example</h2>
+
+        <pre class="code-example"><code class="language-javascript">package main
+
+  import (
+    "bufio"
+    "fmt"
+    "log"
+    "os"
+  )
+  
+  func main() {
+    file, err := os.Open("data.txt")
+    if err != nil {
+      log.Fatal(err)
+    }
+    scanner := bufio.NewScanner(file)
+    for scanner.Scan() {
+      fmt.Println(scanner.Text())
+    }
+    err = file.Close()
+    if err != nil {
+      log.Fatal(err)
+    }
+    if scanner.Err() != nil {
+      log.Fatal(scanner.Err())
+    }
+  }
+</code></pre>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <p>Advanced training courses</p>
+        <p>Software testing course IT Academy of Alexey Sukhorukov, Tester</p>
+
+        <p>2020</p>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <p><a href="https://AbadzhevaK8.github.io/rsschool-cv/cv">RS School CV</a></p>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>Higher education</p>
+        <p> Moscow State Industrial University, Moscow Faculty of Economics, Management and Information Technology,
+          Economics and Enterprise Management (by industry)</p>
+
+        <p>2014</p>
+      </section>
+      <section class="section" id="english">
+        <h2 class="section-title">English</h2>
+        <p>B1 (Intermediate)</p>
+      </section>
+
+    </div>
+  </main>
+  <!-- footer section -->
+  <footer class="footer">
+    <div class="container">
+
+    </div>
+  </footer>
+  <script src="./js/prism.js"></script>
 </body>
 
 </html>
