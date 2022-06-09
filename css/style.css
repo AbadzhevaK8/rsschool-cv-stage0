@@ -1,9 +1,14 @@
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Roboto Slab', serif;
     color: #193848;
     min-height: 100vh;
@@ -13,6 +18,16 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  } */
+
+
 
 * {
     box-sizing: border-box;
@@ -28,8 +43,14 @@ body {
     background-color: #C7D6E0;
 }
 
-.main-container{
-    
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding: 20px;
 }
 
 .footer {
@@ -58,13 +79,6 @@ body {
     transition: .3s;
 }
 
-.foto {
-    /* height: 500px; */
-    width: 500px;
-    /* border-radius: 1500px 1500px;  */
-    filter: grayscale(100%)
-}
-
 .nav-item a {
     /* color: #829985; */
     text-decoration: none;
@@ -75,11 +89,53 @@ body {
     color: #193848;
 }
 
-.section a{
-    color: #D94016;
+.section a {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
 }
 
-.code-example{
+.section a:hover {
+    color: #5d7260;
+}
+
+.code-example {
     border-radius: 20px;
     padding: 20px;
 }
+
+/* .foto {
+    width: 500px;
+    height: 500px;
+    background-image: url(./assets/img/abadzheva_ekaterina.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+
+.foto {
+    /* height: 500px; */
+    width: 80%;
+    border-radius: 20px; 
+    filter: grayscale(100%)
+}
+
+.copyright {
+    padding: 10px;
+}
+
+/* li {
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  li::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid #829985;
+    border-radius: 50%;
+  } */
