@@ -48,6 +48,10 @@ body {
     flex-wrap: wrap;
 }
 
+/* .panel{
+    width: 30%;
+} */
+
 .section {
     width: 50%;
     padding: 20px;
@@ -139,3 +143,10 @@ body {
     border: 1px solid #829985;
     border-radius: 50%;
   } */
+
+
+  .logo {
+    height: 40px;
+    margin: 10px;
+    float: right;
+  }
