@@ -2,6 +2,42 @@
     .section {
         width: 100%;
     }
+    .contacts  {
+        width: 100%;
+        background-color: #C7D6E0;
+    }
+    
+    .card {
+        width: 100%;
+    }
+    
+    .skills {
+        width: 100%;
+        background-color: #C7D6E0;
+    }
+    
+    .summary{
+        width: 100%;
+    }
+    
+    .english {
+        width: 100%;
+        background-color: #C7D6E0;
+    }
+    
+    .code {
+        width: 100%;
+    }
+    
+    .projects {
+        width: 100%;
+        background-color: #C7D6E0;
+    }
+    
+    
+    .education {
+        width: 100%;
+    }
 }
 
 html {
@@ -19,27 +55,15 @@ body {
     justify-content: space-between;
 }
 
-/* .section-title {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #829985;
-  } */
-
-
-
 * {
     box-sizing: border-box;
 }
 
 .header {
-    /* border: 1px solid pink; */
     background-color: #67899F;
 }
 
 .main {
-    /* border: 1px solid yellowgreen; */
     background-color: #C7D6E0;
 }
 
@@ -48,18 +72,52 @@ body {
     flex-wrap: wrap;
 }
 
-/* .panel{
-    width: 30%;
-} */
-
 .section {
-    width: 50%;
     padding: 20px;
 }
 
+/* width of blocks */
+.contacts  {
+    width: 30%;
+    background-color: #b5d1c2;
+}
+
+.card {
+    width: 70%;
+}
+
+.skills {
+    width: 30%;
+    background-color: #b5d1c2;
+}
+
+.summary{
+    width: 70%;
+}
+
+.english {
+    width: 30%;
+    background-color: #b5d1c2;
+}
+
+.code {
+    width: 70%;
+}
+
+.projects {
+    width: 30%;
+    background-color: #b5d1c2;
+}
+
+
+.education {
+    width: 65%;
+}
+
 .footer {
-    /* border: 1px solid pink; */
     background-color: #70A488;
+    padding: 20px;
+    position: relative;
 }
 
 .container {
@@ -84,7 +142,6 @@ body {
 }
 
 .nav-item a {
-    /* color: #829985; */
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -108,45 +165,29 @@ body {
     padding: 20px;
 }
 
-/* .foto {
-    width: 500px;
-    height: 500px;
-    background-image: url(./assets/img/abadzheva_ekaterina.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
-
-
 .foto {
-    /* height: 500px; */
-    width: 80%;
-    border-radius: 300px; 
-    filter: grayscale(100%)
+    width: 60%;
+    border-radius: 50%; 
+    filter: grayscale(100%);
+    margin: 0px 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #193848;
+    transition: color 0.5s;
+}
+
+.footer a:hover {
+    color: #C7D6E0;
 }
 
 .copyright {
-    padding: 10px;
-}
-
-/* li {
-    position: relative;
-    padding-left: 30px;
-  }
-  
-  li::before {
-    content: "";
     position: absolute;
-    top: 8px;
-    left: 0px;
-    width: 10px;
-    height: 10px; 
-    border: 1px solid #829985;
-    border-radius: 50%;
-  } */
-
+    top: 20%;
+}
 
   .logo {
     height: 40px;
-    margin: 10px;
     float: right;
   }
