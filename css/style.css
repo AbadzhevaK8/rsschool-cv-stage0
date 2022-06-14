@@ -1,3 +1,141 @@
-.coloredBlock{
-    background-image: url('../assets/img/image.jpg');
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #193848;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  } */
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    /* border: 1px solid pink; */
+    background-color: #67899F;
+}
+
+.main {
+    /* border: 1px solid yellowgreen; */
+    background-color: #C7D6E0;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding: 20px;
+}
+
+.footer {
+    /* border: 1px solid pink; */
+    background-color: #70A488;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: smooth;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #E0B193;
+    text-decoration: none;
+    font-size: large;
+    transition: .3s;
+}
+
+.nav-item a {
+    /* color: #829985; */
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #193848;
+}
+
+.section a {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+}
+
+.section a:hover {
+    color: #5d7260;
+}
+
+.code-example {
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* .foto {
+    width: 500px;
+    height: 500px;
+    background-image: url(./assets/img/abadzheva_ekaterina.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+
+.foto {
+    /* height: 500px; */
+    width: 80%;
+    border-radius: 300px; 
+    filter: grayscale(100%)
+}
+
+.copyright {
+    padding: 10px;
+}
+
+/* li {
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  li::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid #829985;
+    border-radius: 50%;
+  } */
